@@ -96,6 +96,8 @@ links:
     百度: http://www.baidu.com/
     #新浪: http://example.com/
 
+# ##添加 README.md 文件
+# skip_render: README.md
 
 ## 服务端部署
 deploy:
