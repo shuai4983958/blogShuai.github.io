@@ -46,16 +46,13 @@
     <link href="https://shuai4983958.github.io/blogShuai.github.io/2018/04/18/%E7%B4%A7%E6%80%A5bug/"/>
     <id>https://shuai4983958.github.io/blogShuai.github.io/2018/04/18/紧急bug/</id>
     <published>2018-04-17T23:17:45.000Z</published>
-    <updated>2018-04-19T08:17:02.000Z</updated>
+    <updated>2018-04-19T08:55:24.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h3><p>&emsp;&emsp;<img src="http://p07lnx722.bkt.clouddn.com/aa.jpg" alt="项目发布"><br>&emsp;&emsp;然后线上打包发布以后出了点小问题，各端原因在寻找bug的时候，有一点点建议：<br><img src="http://p07lnx722.bkt.clouddn.com/aaa.jpg" alt="害怕"></p><h3 id="过程："><a href="#过程：" class="headerlink" title="过程："></a>过程：</h3><ul><li>首先一定要冷静，冷静，千万要冷静，不要捉急！！！事可以急，但找<code>bug</code>，修<code>bug</code>千万不要心急，虽然出现问题，各方都可能出现原因，但定位<code>bug</code>是各端都应该做的事情，切记：<code>bug</code>还没找就开始推卸责任。</li><li>1、定位到抛出来的<code>bug</code>。这个定位问题，如果说项目架构比较好，代码严谨的情况，异常抛出是很容易定位到的，怕就怕接手n轮前辈的代码，一遍一遍的堆积代码，所以定位<code>bug</code>很重要。</li><li>2、在定位点前后找问题，</li><li>3、在代码的逻辑判断处寻找坑（一搬都是出现在变量不存在，后台数据返回字段问题，所以在这里定义一套规范的合理的前后端交互文档是很有必要的，这样前台处理数据也可以面面俱到，而不是对所有的可能出现的数据类型都进行不可预估的判断，我们公司前后定义，返回的肯定是一个json，并且错误信息在msg里面，错误代码为非0）</li><li>4、多调试，耐心，什么样的bug都是能解决的，再次诚拜各位，每一行代码都得自己写哇，黏贴复制特别容易出问题。偷巧可以，但要细心</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>&lt; !–more–&gt;</p><h3 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h3><p>&emsp;&emsp;<img src="http://p07lnx722.bkt.clouddn.com/aa.jpg" alt="项目发布"><br>&emsp;&emsp;然后线上打包发布以后出了点小问题，各端原因在寻找bug的时候，有一点点建议：<br><img src="http://p07lnx722.bkt.clouddn.com/aaa.jpg" alt="害怕"></p><h3 id="过程："><a href="#过程：" class="headerlink" title="过程："></a>过程：</h3><ul><li>首先一定要冷静，冷静，千万要冷静，不要捉急！！！事可以急，但找<code>bug</code>，修<code>bug</code>千万不要心急，虽然出现问题，各方都可能出现原因，但定位<code>bug</code>是各端都应该做的事情，切记：<code>bug</code>还没找就开始推卸责任。</li><li>1、定位到抛出来的<code>bug</code>。这个定位问题，如果说项目架构比较好，代码严谨的情况，异常抛出是很容易定位到的，怕就怕接手n轮前辈的代码，一遍一遍的堆积代码，所以定位<code>bug</code>很重要。</li><li>2、在定位点前后找问题，</li><li>3、在代码的逻辑判断处寻找坑（一搬都是出现在变量不存在，后台数据返回字段问题，所以在这里定义一套规范的合理的前后端交互文档是很有必要的，这样前台处理数据也可以面面俱到，而不是对所有的可能出现的数据类型都进行不可预估的判断，我们公司前后定义，返回的肯定是一个json，并且错误信息在msg里面，错误代码为非0）</li><li>4、多调试，耐心，什么样的bug都是能解决的，再次诚拜各位，每一行代码都得自己写哇，黏贴复制特别容易出问题。偷巧可以，但要细心</li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;&lt;img src=&quot;http://p07lnx722.bkt.clouddn.com/aa.jpg&quot; alt
-      
+      线上打包发布以后出了点小问题，各端原因在寻找bug的时候，有一点点建议。
     
     </summary>
     
@@ -92,7 +89,7 @@
     <link href="https://shuai4983958.github.io/blogShuai.github.io/2018/04/17/Hexo%E6%95%99%E7%A8%8B/"/>
     <id>https://shuai4983958.github.io/blogShuai.github.io/2018/04/17/Hexo教程/</id>
     <published>2018-04-17T03:17:45.000Z</published>
-    <updated>2018-04-17T04:06:20.000Z</updated>
+    <updated>2018-04-19T08:52:03.000Z</updated>
     
     <summary type="html">
     
