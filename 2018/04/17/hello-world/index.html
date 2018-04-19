@@ -114,18 +114,18 @@
 
 
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="&amp;emsp;&amp;emsp;在聊websoket之前呢！我们先聊聊http，几大必须要知道的点分享一下：&amp;emsp;&amp;emsp;Welcome to HTTP协议!  关于WebSocket的基础知识，&amp;emsp;&amp;emsp;可以参考阮一峰的博客不过稍微重要的几点我们可以拿出来重点交流一下：  WebSocket的优势总结：  1、（双向通信）服务器可以主动向客户端推送信息，客户端也可以主动向服务器发">
 <meta name="keywords" content="hexo blog">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="WebSocket 从0开发">
 <meta property="og:url" content="https://shuai4983958.github.io/blogShuai.github.io/2018/04/17/hello-world/index.html">
 <meta property="og:site_name" content="吕景帅">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="&amp;emsp;&amp;emsp;在聊websoket之前呢！我们先聊聊http，几大必须要知道的点分享一下：&amp;emsp;&amp;emsp;Welcome to HTTP协议!  关于WebSocket的基础知识，&amp;emsp;&amp;emsp;可以参考阮一峰的博客不过稍微重要的几点我们可以拿出来重点交流一下：  WebSocket的优势总结：  1、（双向通信）服务器可以主动向客户端推送信息，客户端也可以主动向服务器发">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-17T04:06:20.000Z">
+<meta property="og:updated_time" content="2018-04-18T12:28:20.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="WebSocket 从0开发">
+<meta name="twitter:description" content="&amp;emsp;&amp;emsp;在聊websoket之前呢！我们先聊聊http，几大必须要知道的点分享一下：&amp;emsp;&amp;emsp;Welcome to HTTP协议!  关于WebSocket的基础知识，&amp;emsp;&amp;emsp;可以参考阮一峰的博客不过稍微重要的几点我们可以拿出来重点交流一下：  WebSocket的优势总结：  1、（双向通信）服务器可以主动向客户端推送信息，客户端也可以主动向服务器发">
 
 
 
@@ -144,7 +144,7 @@
   };
 </script>
 
-  <title>Hello World | 吕景帅</title>
+  <title>WebSocket 从0开发 | 吕景帅</title>
   
 
 
@@ -341,7 +341,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World
+          <h1 class="post-title" itemprop="name headline">WebSocket 从0开发
               
             
           </h1>
@@ -369,6 +369,22 @@
               <time title="Created: 2018-04-17 12:06:20" itemprop="dateCreated datePublished" datetime="2018-04-17T12:06:20+08:00">2018-04-17</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-04-18 20:28:20" itemprop="dateModified" datetime="2018-04-18T20:28:20+08:00">2018-04-18</time>
+              
             
           </span>
 
@@ -400,8 +416,29 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <p>&emsp;&emsp;在聊websoket之前呢！我们先聊聊http，几大必须要知道的点分享一下：<br>&emsp;&emsp;Welcome to <a href="/blogShuai.github.io/2018/04/18/HTTP协议/">HTTP协议</a>! </p>
+<h2 id="关于WebSocket的基础知识，"><a href="#关于WebSocket的基础知识，" class="headerlink" title="关于WebSocket的基础知识，"></a>关于WebSocket的基础知识，</h2><p>&emsp;&emsp;可以参考<a href="http://www.ruanyifeng.com/blog/2017/05/websocket.html" target="_blank" rel="noopener">阮一峰的博客</a>不过稍微重要的几点我们可以拿出来重点交流一下：</p>
+<ul>
+<li><p>WebSocket的优势总结：</p>
+<ul>
+<li>1、（双向通信）服务器可以主动向客户端推送信息，客户端也可以主动向服务器发送信息</li>
+<li>2、与http协议类似，都是建立在tcp传输协议之上</li>
+<li>3、与服务器通信，url的协议标识符是ws，加密的话则为wss</li>
+<li>4、客户端通过websocket协议可以与任意服务器通信，没有同源限制。<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">项目采用的websocket协议与服务器端通信的列子：</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">typeof</span> WebSocket !== <span class="string">'function'</span>)&#123;</span><br><span class="line">          <span class="built_in">console</span>.log(<span class="string">'不支持websocket'</span>)</span><br><span class="line">          <span class="comment">//判断浏览器是否支持websocket</span></span><br><span class="line">   &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">       <span class="keyword">let</span>  ws = <span class="keyword">new</span> WebSocket(<span class="string">`ws://chat.willclass.com?secret=89414b156e300f169462647ed7106d326a8d641e&amp;roomId=<span class="subst">$&#123;classroomId&#125;</span><span class="subst">$&#123;data.courseId&#125;</span>&amp;cid=<span class="subst">$&#123;<span class="built_in">window</span>.userId&#125;</span>`</span>);</span><br><span class="line">        ws.onmessage = <span class="keyword">this</span>.getmsg;</span><br><span class="line">        ws.onclose = <span class="keyword">this</span>.reConnect</span><br><span class="line">        ws.onerror = <span class="keyword">this</span>.reConnect</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>无序列表2 </p>
+<ul>
+<li>无序列表2.1 <ul>
+<li>列表内容 </li>
+<li>列表内容</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
@@ -453,6 +490,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blogShuai.github.io/2018/04/18/紧急bug/" rel="prev" title="紧急bug处理心态">
+                紧急bug处理心态 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -556,7 +597,7 @@ var jiathis_config={
                 
                   <a href="/blogShuai.github.io/archives">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -684,7 +725,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于WebSocket的基础知识，"><span class="nav-number">1.</span> <span class="nav-text">关于WebSocket的基础知识，</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.1.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.2.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.3.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
             
 
           </div>

@@ -6,7 +6,7 @@
   <link href="/blogShuai.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai4983958.github.io/blogShuai.github.io/"/>
-  <updated>2018-04-17T04:06:20.000Z</updated>
+  <updated>2018-04-18T11:54:26.000Z</updated>
   <id>https://shuai4983958.github.io/blogShuai.github.io/</id>
   
   <author>
@@ -17,19 +17,69 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://shuai4983958.github.io/blogShuai.github.io/2018/04/17/hello-world/"/>
-    <id>https://shuai4983958.github.io/blogShuai.github.io/2018/04/17/hello-world/</id>
-    <published>2018-04-17T04:06:20.000Z</published>
-    <updated>2018-04-17T04:06:20.000Z</updated>
+    <title>HTTP协议</title>
+    <link href="https://shuai4983958.github.io/blogShuai.github.io/2018/04/18/HTTP%E5%8D%8F%E8%AE%AE/"/>
+    <id>https://shuai4983958.github.io/blogShuai.github.io/2018/04/18/HTTP协议/</id>
+    <published>2018-04-18T11:54:00.000Z</published>
+    <updated>2018-04-18T11:54:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h2><ul><li>什么是HTTP协议 </li><li>无序列表2 <ul><li>无序列表2.1 <ul><li>列表内容 </li><li>列表内容</li></ul></li></ul></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h2 id=&quot;HTTP协议&quot;&gt;&lt;a href=&quot;#HTTP协议&quot; class=&quot;headerlink&quot; title=&quot;HTTP协议&quot;&gt;&lt;/a&gt;HTTP协议&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;什么是HTTP协议 &lt;/li&gt;
+&lt;li&gt;无序列表2 &lt;ul&gt;
+&lt;li&gt;无序列表2.1 &lt;ul&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>紧急bug处理心态</title>
+    <link href="https://shuai4983958.github.io/blogShuai.github.io/2018/04/18/%E7%B4%A7%E6%80%A5bug/"/>
+    <id>https://shuai4983958.github.io/blogShuai.github.io/2018/04/18/紧急bug/</id>
+    <published>2018-04-17T23:17:45.000Z</published>
+    <updated>2018-04-19T08:17:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h3><p>&emsp;&emsp;<img src="http://p07lnx722.bkt.clouddn.com/aa.jpg" alt="项目发布"><br>&emsp;&emsp;然后线上打包发布以后出了点小问题，各端原因在寻找bug的时候，有一点点建议：<br><img src="http://p07lnx722.bkt.clouddn.com/aaa.jpg" alt="害怕"></p><h3 id="过程："><a href="#过程：" class="headerlink" title="过程："></a>过程：</h3><ul><li>首先一定要冷静，冷静，千万要冷静，不要捉急！！！事可以急，但找<code>bug</code>，修<code>bug</code>千万不要心急，虽然出现问题，各方都可能出现原因，但定位<code>bug</code>是各端都应该做的事情，切记：<code>bug</code>还没找就开始推卸责任。</li><li>1、定位到抛出来的<code>bug</code>。这个定位问题，如果说项目架构比较好，代码严谨的情况，异常抛出是很容易定位到的，怕就怕接手n轮前辈的代码，一遍一遍的堆积代码，所以定位<code>bug</code>很重要。</li><li>2、在定位点前后找问题，</li><li>3、在代码的逻辑判断处寻找坑（一搬都是出现在变量不存在，后台数据返回字段问题，所以在这里定义一套规范的合理的前后端交互文档是很有必要的，这样前台处理数据也可以面面俱到，而不是对所有的可能出现的数据类型都进行不可预估的判断，我们公司前后定义，返回的肯定是一个json，并且错误信息在msg里面，错误代码为非0）</li><li>4、多调试，耐心，什么样的bug都是能解决的，再次诚拜各位，每一行代码都得自己写哇，黏贴复制特别容易出问题。偷巧可以，但要细心</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;&lt;img src=&quot;http://p07lnx722.bkt.clouddn.com/aa.jpg&quot; alt
+      
+    
+    </summary>
+    
+    
+      <category term="标签1" scheme="https://shuai4983958.github.io/blogShuai.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+      <category term="标签2" scheme="https://shuai4983958.github.io/blogShuai.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WebSocket 从0开发</title>
+    <link href="https://shuai4983958.github.io/blogShuai.github.io/2018/04/17/hello-world/"/>
+    <id>https://shuai4983958.github.io/blogShuai.github.io/2018/04/17/hello-world/</id>
+    <published>2018-04-17T04:06:20.000Z</published>
+    <updated>2018-04-18T12:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;在聊websoket之前呢！我们先聊聊http，几大必须要知道的点分享一下：<br>&emsp;&emsp;Welcome to <a href="/blogShuai.github.io/2018/04/18/HTTP协议/">HTTP协议</a>! </p><h2 id="关于WebSocket的基础知识，"><a href="#关于WebSocket的基础知识，" class="headerlink" title="关于WebSocket的基础知识，"></a>关于WebSocket的基础知识，</h2><p>&emsp;&emsp;可以参考<a href="http://www.ruanyifeng.com/blog/2017/05/websocket.html" target="_blank" rel="noopener">阮一峰的博客</a>不过稍微重要的几点我们可以拿出来重点交流一下：</p><ul><li><p>WebSocket的优势总结：</p><ul><li>1、（双向通信）服务器可以主动向客户端推送信息，客户端也可以主动向服务器发送信息</li><li>2、与http协议类似，都是建立在tcp传输协议之上</li><li>3、与服务器通信，url的协议标识符是ws，加密的话则为wss</li><li>4、客户端通过websocket协议可以与任意服务器通信，没有同源限制。<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">项目采用的websocket协议与服务器端通信的列子：</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">typeof</span> WebSocket !== <span class="string">'function'</span>)&#123;</span><br><span class="line">          <span class="built_in">console</span>.log(<span class="string">'不支持websocket'</span>)</span><br><span class="line">          <span class="comment">//判断浏览器是否支持websocket</span></span><br><span class="line">   &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">       <span class="keyword">let</span>  ws = <span class="keyword">new</span> WebSocket(<span class="string">`ws://chat.willclass.com?secret=89414b156e300f169462647ed7106d326a8d641e&amp;roomId=<span class="subst">$&#123;classroomId&#125;</span><span class="subst">$&#123;data.courseId&#125;</span>&amp;cid=<span class="subst">$&#123;<span class="built_in">window</span>.userId&#125;</span>`</span>);</span><br><span class="line">        ws.onmessage = <span class="keyword">this</span>.getmsg;</span><br><span class="line">        ws.onclose = <span class="keyword">this</span>.reConnect</span><br><span class="line">        ws.onerror = <span class="keyword">this</span>.reConnect</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></li></ul></li><li><p>无序列表2 </p><ul><li>无序列表2.1 <ul><li>列表内容 </li><li>列表内容</li></ul></li></ul></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp;&amp;emsp;在聊websoket之前呢！我们先聊聊http，几大必须要知道的点分享一下：&lt;br&gt;&amp;emsp;&amp;emsp;Welcome to &lt;a href=&quot;/blogShuai.github.io/2018/04/18/HTTP协议/&quot;&gt;HTTP协议&lt;/a&gt;
       
     
     </summary>
