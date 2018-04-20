@@ -1944,7 +1944,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff5dd1;
+  background: #45f582;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3086,11 +3086,9 @@ ul.breadcrumb li+li:last-child {
   transition: 5s;
 }
 .post:nth-of-type(odd):hover {
-  opacity: 0.3;
   background-color: rgba(255,102,26,0.3);
 }
 .post:nth-of-type(even):hover {
-  opacity: 0.3;
   background-color: rgba(112,18,255,0.3);
 }
 .myButton {
